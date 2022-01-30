@@ -1,4 +1,4 @@
-@extends('layouts.app', ['authgroup'=>'admin'])
+@extends('layouts.appAdmin', ['authgroup'=>'admin'])
 
 @section('content')
 <div class="container">

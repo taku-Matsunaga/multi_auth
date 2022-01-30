@@ -33,7 +33,7 @@ class AdminForgotPasswordController extends Controller
 
     public function showLinkRequestForm()
     {
-        return view('auth.passwords.email')->with(
+        return view('authAdmin.passwords.email')->with(
             ['authgroup' => 'admin']
         );
     }
